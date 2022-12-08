@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 50px 0 150px 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,86,121,1) 34%, rgba(0,212,255,1) 74%);
+}
+
+.form {
+    background-color: rgb(7, 25, 30);
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    align-items: center;
+    border: 2px solid #45f3ff;
+}
+
+.form h2 {
+    color: #45f3ff;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.form-group {
+    width: 350px;
+    margin-top: 35px;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #0f282c;
+    outline: none;
+    color: #45f3ff;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+}
+
+.form-group label {
+    color: #38aab3;
+    margin-bottom: 0px;
+}
+
+.form-group input:hover {
+    transition: 0.5s;
+    border: 1px solid #45f3ff;
+    color: white;
+    padding: 10px;
+    background-color: #0f282c;
+}
+
+
+.form-group .inline {
+    color: #45f3ff;
+    font-size: small;
+}
+
+.form-group input[type="submit"] {
+    background: #45f3ff;
+    border: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links a {
+    margin-top: 30px;
+    color: #8f8f8f;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+
+.links a:hover {
+    color: #45f3ff;
+}
+
+.form-group input[type="checkbox"] {
+    width: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+
+.invalid {
+    border: red 1px solid;
+}
+
+.valid {
+    border: green 1px solid;
+}
